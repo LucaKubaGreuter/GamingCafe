@@ -1,0 +1,247 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="l1tQnbxtFJ9A79DCWYUq" name="Page-1">
+    <mxGraphModel dx="2950" dy="2346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Gaming Café PSP" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="-10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="1. Internetverbindung sicherstellen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="1.1 Vertrag abschließen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-415" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="1.2 Verbindung testen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-415" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="2. Netzwerkplanung abschließen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="2.1 Netzwerkdesign entwerfen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-195" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="2.2 Hardware spezifizieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-195" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" source="8" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" source="9" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="3. Hardware beschaffen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="3.1 Netzwerkgeräte bestellen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="25" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="3.2 PCs und Peripheriegeräte kaufen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="25" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" source="13" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" source="14" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="4. Netzwerk einrichten" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="4.1 Router und Switches installieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="4.2 Verkabelung durchführen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="4.3 WLAN und VLANs konfigurieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="360" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" source="18" target="19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" source="19" target="20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" source="20" target="21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="5. PCs vorbereiten" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="5.2 Sicherheitssoftware aufspielen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="5.3 Gaming-Programme installieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="370" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" source="25" target="26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" source="26" target="27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" source="27" target="28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="6. Server einrichten" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="6.1 Hardware installieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="675" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="6.2 Server konfigurieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="675" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="6.3 Benutzerkonten einrichten" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="675" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" source="32" target="33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" source="33" target="34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" source="34" target="35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="7. Systemtest durchführen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="7.1 Netzwerkverbindungen testen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="885" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="7.2 Funktionalität der PCs prüfen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="885" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="7.3 Belastungstests durchführen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="885" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" source="39" target="40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" source="40" target="41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" source="41" target="42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="8. Technischen Supportplan erstellen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="8.2 Support-Schulung erstellen" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1095" y="270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="8.3 Notfallprotokolle entwickeln" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1095" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" source="46" target="47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" source="47" target="48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="52" parent="1" source="48" target="49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-18" value="" edge="1" parent="1" source="25" target="26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546" y="150" as="sourcePoint" />
+            <mxPoint x="691" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="5.1 Betriebssystem installieren" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-19" value="" edge="1" parent="1" source="46" target="47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="150" as="sourcePoint" />
+            <mxPoint x="1170" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47" value="8.1 Wartungsplan entwickeln" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1095" y="190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="10" as="sourcePoint" />
+            <mxPoint x="300" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-340" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="90" as="sourcePoint" />
+            <mxPoint x="110" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-50" as="sourcePoint" />
+            <mxPoint x="240" y="-100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="100" as="sourcePoint" />
+            <mxPoint x="310" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="20" as="sourcePoint" />
+            <mxPoint x="640" y="-30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="535" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="80" as="sourcePoint" />
+            <mxPoint x="680" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="-30" as="sourcePoint" />
+            <mxPoint x="970" y="-30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2wKW0pju8xPJblYgzvb-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2" target="46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="60" as="sourcePoint" />
+            <mxPoint x="1160" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
