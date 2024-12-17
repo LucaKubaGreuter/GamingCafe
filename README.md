@@ -1,2 +1,2 @@
 # GamingCafe
-Doku für Modul M304
+Doku für Modul M306
