@@ -39,6 +39,7 @@
   - [Risikobewertung](#risikobewertung)
   - [Abnahme](#abnahme)
 - [PSP](#psp)
+- [Gantt](#gantt)
 
 ## Projektziele
 
@@ -202,3 +203,7 @@ Der Projektauftrag dient als zentrale Orientierung für alle Beteiligten und als
 ## PSP
 
 ![PSP](./psp2.png)
+
+## Gantt
+
+![Gantt](./GanttDiagramm.png)
