@@ -206,4 +206,4 @@ Der Projektauftrag dient als zentrale Orientierung für alle Beteiligten und als
 
 ## Gantt
 
-![Gantt](./GanttDiagramm.png)
+[Gantt-Diagramm](./Gantt-Diagramm.xlsx)
