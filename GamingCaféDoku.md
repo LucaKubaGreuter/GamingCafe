@@ -207,7 +207,11 @@ Der Projektauftrag dient als zentrale Orientierung für alle Beteiligten und als
 
 ### Arbeitspakete definieren
 
-![21-1-2](./21-1-2.rtf)
+[21-1-2](./21-1-2.docx)
+<br>
+[21-2-2](./Hardware%20beschaffen.docx)
+<br>
+[21-5-1](./Logo%20und%20Branding%20PSP.docx)
 
 ## Gantt
 
