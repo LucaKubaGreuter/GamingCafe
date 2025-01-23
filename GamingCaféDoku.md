@@ -12,7 +12,7 @@
   - [Beschreibung](#beschreibung)
 - [Projektziele](#projektziele)
   - [1. Internetverbindung sicherstellen](#1-internetverbindung-sicherstellen)
-  - [2. Netzwerkplanung abschließen](#2-netzwerkplanung-abschließen)
+  - [2. Netzwerkplanung abschliessen](#2-netzwerkplanung-abschliessen)
   - [3. Hardware beschaffen](#3-hardware-beschaffen)
   - [4. Netzwerk einrichten](#4-netzwerk-einrichten)
   - [5. PCs vorbereiten](#5-pcs-vorbereiten)
@@ -37,6 +37,23 @@
   - [Hardware-Ausfälle](#hardware-ausfälle)
   - [Physische Schäden](#physische-schäden)
   - [Stromunterbruch](#stromunterbruch)
+- [SWOT-Analyse](#swot-analyse)
+  - [Strengths](#strengths)
+  - [Weaknesses](#weaknesses)
+  - [Opportunities](#opportunities)
+  - [Threats](#threats)
+- [PESTEL-Analye](#pestel-analye)
+  - [Political](#political)
+  - [Economic](#economic)
+  - [Social](#social)
+  - [Technological](#technological)
+  - [Environmental](#environmental)
+  - [Legal](#legal)
+- [Bewertung](#bewertung-1)
+  - [Positiv:](#positiv)
+  - [Negativ:](#negativ)
+- [Empfehlung](#empfehlung)
+- [Entscheidung](#entscheidung)
 - [Projektauftrag](#projektauftrag)
 - [Inhalt eines Projektauftrags](#inhalt-eines-projektauftrags)
   - [Ziele](#ziele)
@@ -46,6 +63,14 @@
   - [Risikobewertung](#risikobewertung)
   - [Abnahme](#abnahme)
 - [Organigramm](#organigramm)
+- [Kombination aus Wasserfallmodell und agiler Phase](#kombination-aus-wasserfallmodell-und-agiler-phase)
+  - [1. Wasserfallmodell (Planung und Implementierung)](#1-wasserfallmodell-planung-und-implementierung)
+    - [Phasen des Wasserfallmodells:](#phasen-des-wasserfallmodells)
+  - [2. Agile Phase (Tests und Anpassungen)](#2-agile-phase-tests-und-anpassungen)
+    - [Warum eine agile Phase?](#warum-eine-agile-phase)
+    - [Ablauf in der agilen Phase:](#ablauf-in-der-agilen-phase)
+- [Vorteile dieses Modells](#vorteile-dieses-modells)
+- [Fazit](#fazit)
 - [PSP](#psp)
   - [Arbeitspakete definieren](#arbeitspakete-definieren)
 - [Netzwerk Diagramm](#netzwerk-diagramm)
@@ -79,13 +104,13 @@ Ein Gaming-Café, das professionelle Hardware, zuverlässige Netzwerktechnik und
 ## Projektziele
 
 ### 1. Internetverbindung sicherstellen
-- **Spezifisch:** Vertrag für schnelles und stabiles Internet (mind. 1 Gbit/s) abschließen.
+- **Spezifisch:** Vertrag für schnelles und stabiles Internet (mind. 1 Gbit/s) abschliessen.
 - **Messbar:** Internetgeschwindigkeit testen und Dokumentation des Tests.
 - **Attraktiv:** Wesentlich für reibungslose Nutzung durch die Kunden.
 - **Realistisch:** Anbieter und Angebote wurden bereits recherchiert.
 - **Terminiert:** Bis spätestens 1 Monat vor der Eröffnung abgeschlossen.
 
-### 2. Netzwerkplanung abschließen
+### 2. Netzwerkplanung abschliessen
 - **Spezifisch:** Plan für Netzwerkstruktur mit Geräten (Router, Switches, Access Points) erstellen.
 - **Messbar:** Dokumentierter Netzwerkplan vorhanden.
 - **Attraktiv:** Erhöht Zuverlässigkeit und Effizienz der Infrastruktur.
@@ -93,7 +118,7 @@ Ein Gaming-Café, das professionelle Hardware, zuverlässige Netzwerktechnik und
 - **Terminiert:** Fertigstellung bis 3 Monate vor der Eröffnung.
 
 ### 3. Hardware beschaffen
-- **Spezifisch:** Beschaffung aller Netzwerkkomponenten, einschließlich Router, Switches und Access Points.
+- **Spezifisch:** Beschaffung aller Netzwerkkomponenten, einschliesslich Router, Switches und Access Points.
 - **Messbar:** Liste der erhaltenen Hardware und Lieferbestätigungen.
 - **Attraktiv:** Notwendig für Einrichtung und Betrieb.
 - **Realistisch:** Lieferanten stehen zur Verfügung.
@@ -209,27 +234,27 @@ Technisch machbar, solange die Hardware rechtzeitig geliefert wird und genügend
 Kundendaten, Zahlungsinformationen oder gespeicherte Accounts können durch Hacking oder Malware gefährdet sein. Dies betrifft IT-Sicherheit und Datenschutz.
 
 - **Eintrittswahrscheinlichkeit:** Gering
-- **Schadensausmaß:** Hoch
+- **Schadensausmass:** Hoch
 - **Score:** 3
 
 ---
 
 ### Hardware-Ausfälle
 
-Hohe Nutzung führt zu Verschleiß bei PCs, Konsolen, Monitoren oder Netzwerkgeräten. Ein defektes Gerät könnte den Service beeinträchtigen.
+Hohe Nutzung führt zu Verschleiss bei PCs, Konsolen, Monitoren oder Netzwerkgeräten. Ein defektes Gerät könnte den Service beeinträchtigen.
 
 - **Eintrittswahrscheinlichkeit:** Mittel
-- **Schadensausmaß:** Mittel
+- **Schadensausmass:** Mittel
 - **Score:** 4
 
 ---
 
 ### Physische Schäden
 
-Geräte oder Möbel könnten durch unsachgemäße Benutzung beschädigt werden. Dies betrifft die allgemeine Infrastruktur des Shops.
+Geräte oder Möbel könnten durch unsachgemässe Benutzung beschädigt werden. Dies betrifft die allgemeine Infrastruktur des Shops.
 
 - **Eintrittswahrscheinlichkeit:** Gering
-- **Schadensausmaß:** Hoch
+- **Schadensausmass:** Hoch
 - **Score:** 3
 
 ---
@@ -239,8 +264,97 @@ Geräte oder Möbel könnten durch unsachgemäße Benutzung beschädigt werden. 
 Ohne Backup-Stromversorgung wie eine USV (unterbrechungsfreie Stromversorgung) könnten alle Geräte abrupt herunterfahren, was Datenverlust und Unterbrechungen verursacht.
 
 - **Eintrittswahrscheinlichkeit:** Gering
-- **Schadensausmaß:** Hoch
+- **Schadensausmass:** Hoch
 - **Score:** 3
+
+## SWOT-Analyse
+
+### Strengths
+- **Technische Expertise:** Teammitglieder verfügen über ausreichendes Wissen zur Einrichtung von Netzwerken und PCs.
+- **Verfügbarkeit von Ressourcen:** Zugang zu schnellem Internet (mind. 1 Gbit/s) und Hardware ist gegeben.
+- **Attraktives Konzept:** Ein modernes Gaming-Café mit Fokus auf Community-Building und professioneller Ausstattung.
+- **Gut definierte Ziele:** Klare Planung und terminierte Meilensteine.
+
+### Weaknesses
+- **Abhängigkeit von Lieferanten:** Lieferverzögerungen könnten das Projekt gefährden.
+- **Hohe Anfangsinvestitionen:** Die finanziellen Anforderungen sind beträchtlich, besonders bei der Hardwarebeschaffung.
+- **Begrenzte lokale Supportmöglichkeiten:** Technischer Support könnte in der Anfangsphase nicht ausreichend sein.
+
+### Opportunities
+- **Wachsender Gaming-Markt:** Steigende Nachfrage nach Gaming-Locations und E-Sport-Events.
+- **Lokale Community-Bildung:** Aufbau einer treuen Stammkundschaft durch attraktive Events und Angebote.
+- **Potenzielle Partnerschaften:** Kooperationen mit Hardware-Herstellern oder Sponsoren könnten zusätzliche Ressourcen bringen.
+
+### Threats
+- **Cyberangriffe:** Gefahr durch Hackerangriffe oder Datenverluste, die den Betrieb gefährden könnten.
+- **Technische Ausfälle:** Hardware- oder Netzwerkprobleme könnten den Service beeinträchtigen.
+- **Konkurrenzdruck:** Andere Gaming-Cafés oder ähnliche Einrichtungen in der Region könnten Kunden abwerben.
+- **Unvorhergesehene Kosten:** Ungeplante Ausgaben könnten das Budget überschreiten.
+
+---
+
+## PESTEL-Analye
+
+### Political
+- **Regulierungen:** Einhaltung von lokalen Vorschriften und Gesetzen (z. B. Datenschutz, Sicherheitsstandards).
+- **Subventionen:** Mögliche Förderungen oder Zuschüsse für Start-ups im Technologiebereich.
+- **Arbeitsrecht:** Berücksichtigung von Arbeitszeiten und Mindestlohnanforderungen für Mitarbeiter.
+
+### Economic
+- **Marktnachfrage:** Wachsende Gaming-Industrie und E-Sport-Szene schaffen eine stabile Nachfrage.
+- **Kosten:** Hohe Anfangsinvestitionen in Hardware und Einrichtung.
+- **Kaufkraft:** Zielgruppe muss über ausreichende finanzielle Mittel verfügen, um regelmässige Besuche zu ermöglichen.
+- **Wirtschaftliche Lage:** Lokale und globale wirtschaftliche Schwankungen könnten das verfügbare Einkommen der Kunden beeinflussen.
+
+### Social
+- **Zielgruppe:** Jugendliche und junge Erwachsene, die Gaming als Hobby oder professionell betreiben.
+- **Community-Building:** Möglichkeit, eine engagierte Gaming-Community vor Ort zu schaffen.
+- **Trends:** Gesellschaftlicher Trend hin zu gemeinsamen Erlebnissen und Events im Gaming-Bereich.
+- **Bedenken:** Eventuelle Vorurteile gegenüber Gaming und dessen Einfluss auf Jugendliche.
+
+### Technological
+- **Innovation:** Nutzung moderner Technologien wie High-End-PCs und zuverlässiger Netzwerkinfrastruktur.
+- **Entwicklung:** Schnelle Weiterentwicklung von Gaming-Hardware könnte häufige Updates erfordern.
+- **Cybersecurity:** Schutz der Systeme vor Cyberangriffen und Sicherstellung der Datenintegrität.
+- **Automatisierung:** Einsatz von automatisierten Systemen zur Überwachung und Wartung der Infrastruktur.
+
+### Environmental
+- **Energieverbrauch:** Hoher Stromverbrauch durch Gaming-PCs und Beleuchtung (LED-Strips).
+- **Nachhaltigkeit:** Möglichkeit, auf umweltfreundliche Energiequellen zu setzen, um den ökologischen Fussabdruck zu reduzieren.
+- **Abfallmanagement:** Entsorgung von veralteter Hardware auf umweltgerechte Weise.
+
+### Legal
+- **Verträge:** Abschluss von Verträgen für Internetdienste und Mietvereinbarungen.
+- **Datenschutz:** Einhaltung der DSGVO und anderer Datenschutzvorgaben.
+- **Urheberrecht:** Sicherstellung der Lizenzierung von Software und Spielen.
+- **Haftung:** Klärung von Haftungsfragen bei möglichen Schäden an Geräten durch Kunden.
+
+---
+
+## Bewertung
+Die Analyse zeigt, dass das Gaming-Café-Projekt ein hohes Potenzial hat, erfolgreich zu sein. Die Stärken wie technische Expertise und eine wachsende Zielgruppe stehen im Vordergrund, während die Risiken wie Cyberangriffe und mögliche Lieferverzögerungen machbar sind. Externe Faktoren wie der wachsende Gaming-Markt und technologische Innovationen bieten vielversprechende Chancen, während wirtschaftliche Unsicherheiten und gesetzliche Vorschriften beachtet werden müssen.
+
+### Positiv:
+- Klar definierte Ziele und Ressourcenplanung.
+- Attraktives Angebot für eine wachsende Zielgruppe.
+- Technologisch fortschrittliche und innovative Infrastruktur.
+
+### Negativ:
+- Abhängigkeit von pünktlicher Lieferung und Budgetdisziplin.
+- Hohe Anfangsinvestitionen, die wirtschaftlich belastend sein könnten.
+- Potenzielle rechtliche und ökologische Herausforderungen.
+
+## Empfehlung
+1. **Risiken minimieren:** Aufbau eines robusten IT-Sicherheitssystems und frühzeitige Bestellung der Hardware, um Lieferengpässe zu vermeiden.
+2. **Nachhaltigkeit fördern:** Einsatz energieeffizienter Hardware und LED-Technologien zur verringung des Energieverbrauchs.
+3. **Marketing:** Eine gezielte Marketingkampagne vor und nach der Eröffnung starten, um Aufmerksamkeit aufzuregen.
+4. **Budgetkontrolle:** Laufende Überwachung der finanziellen Lage und frühzeitige Anpassung an unerwartete Kosten.
+5. **Rechtliche Absicherung:** Klärung aller rechtlichen und vertraglichen Fragen im Voraus, um spätere Probleme zu vermeiden.
+
+## Entscheidung
+Basierend auf der Analyse wird empfohlen, das Projekt voranzutreiben, unter der Voraussetzung, dass die genannten Empfehlungen umgesetzt werden. Die Chancen überwiegen die Risiken, und mit einer sorgfältigen Planung und Umsetzung hat das Gaming-Café das Potenzial, ein erfolgreiches und innovatives Geschäft zu werden.
+
+---
 
 ## Projektauftrag
 
@@ -268,7 +382,7 @@ Der Projektauftrag ist ein Dokument, das die Grundlagen eines Projekts festlegt.
 
 ### Risikobewertung
 
-- Potenzielle Risiken und Maßnahmen zur Vermeidung.
+- Potenzielle Risiken und Massnahmen zur Vermeidung.
 
 ### Abnahme
 
@@ -277,6 +391,52 @@ Der Projektauftrag ist ein Dokument, das die Grundlagen eines Projekts festlegt.
 ## Organigramm
 
 ![Organigramm](./Organigramm.png)
+
+---
+
+## Kombination aus Wasserfallmodell und agiler Phase
+
+### 1. Wasserfallmodell (Planung und Implementierung)
+Das Wasserfallmodell eignet sich besonders für euer Projekt, da die Aufgaben klar definiert und logisch aufeinander aufbauen. 
+
+#### Phasen des Wasserfallmodells:
+1. **Anforderungsanalyse:**
+   - Klärung der technischen und organisatorischen Anforderungen (z. B. Internetanbieter, Hardware, Räume).
+   - Erstellung einer detaillierten Liste der benötigten Ressourcen.
+2. **Design:**
+   - Planung der Netzwerkinfrastruktur, Raumausstattung und Hardware-Positionierung.
+   - Erstellung eines Layouts und eines detaillierten Netzplans.
+3. **Implementierung:**
+   - Beschaffung und Einrichtung der Hardware (PCs, Router, Switches, Beleuchtung).
+   - Installation der Software und Konfiguration des Netzwerks.
+4. **Tests:**
+   - Durchführung von Stabilitäts-, Leistungs- und Sicherheitstests.
+   - Prüfung der Funktionalität der Infrastruktur (z. B. Internetgeschwindigkeit, PC-Leistung).
+5. **Rollout:**
+   - Offizielle Eröffnung des Gaming-Cafés und Start des Betriebs.
+
+### 2. Agile Phase (Tests und Anpassungen)
+Für die Test- und Optimierungsphase eignet sich eine agile Methode wie **Scrum** oder **Kanban**, um flexibel auf auftretende Probleme oder Feedback zu reagieren.
+
+#### Warum eine agile Phase?
+- **Kundenfeedback:** Anpassungen basierend auf dem Feedback der ersten Kunden (z. B. Performance-Verbesserungen, Anpassung von Services).
+- **Flexibilität:** Schnelle Reaktion auf technische Probleme oder unvorhergesehene Herausforderungen.
+- **Iterative Verbesserungen:** Schaffung eines kontinuierlichen Verbesserungsprozesses.
+
+#### Ablauf in der agilen Phase:
+1. **Backlog erstellen:** Identifikation von Problemen oder Verbesserungsmöglichkeiten.
+2. **Priorisierung:** Aufgaben werden nach Dringlichkeit und Wichtigkeit sortiert.
+3. **Sprints:** Kurzfristige Umsetzungsphasen zur Lösung der Probleme.
+4. **Retrospektive:** Nach jedem Sprint werden die Ergebnisse analysiert, um die nächsten Schritte zu planen.
+
+## Vorteile dieses Modells
+1. **Struktur und Klarheit:** Das Wasserfallmodell sorgt für einen klaren und geordneten Ablauf der Planungs- und Implementierungsphase.
+2. **Flexibilität in der Testphase:** Agile Methoden ermöglichen es, Probleme effizient zu lösen und schnell auf Veränderungen zu reagieren.
+3. **Eindeutige Verantwortlichkeiten:** Die klaren Phasen erleichtern die Zuweisung von Aufgaben an die Teammitglieder.
+4. **Minimierung von Risiken:** Risiken wie technische Probleme oder Kundenunzufriedenheit können durch iterative Verbesserungen reduziert werden.
+
+## Fazit
+Das kombinierte Modell aus Wasserfall und agilen Methoden bietet eine optimale Mischung aus Struktur und Flexibilität. Es unterstützt eine erfolgreiche Umsetzung des Projekts und ermöglicht gleichzeitig schnelle Anpassungen, um auf Probleme oder Kundenfeedback einzugehen.
 
 ---
 
@@ -306,17 +466,17 @@ Der Projektauftrag ist ein Dokument, das die Grundlagen eines Projekts festlegt.
 
 | ID  | Ressource                 | Von/Bis-Datum     | Verantwortlich |
 |-----|---------------------------|-------------------|----------------|
-| 1   | 15x PCs                  | 18.11.2024 - 24.11.2024 | Luca Greuter  |
-| 2   | 4x Switch                | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 3   | 3x Access Point          | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 4   | 1x Router                | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 5   | 4x Smart Urinal          | 18.11.2024 - 01.12.2024 | Yassin Sobhy  |
-| 6   | 1x 50Meter LAN-Kabel     | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 7   | 2x 15Meter LAN-Kabel     | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 8   | 1x 20Meter LAN-Kabel     | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 9   | 18x 25Meter LAN-Kabel    | 25.11.2024 - 27.11.2024 | Laurin Lange  |
-| 10  | 4x 100Meter LED-Strips   | 02.12.2024 - 04.12.2024 | Yassin Sobhy  |
-| 11  | 3x MacBook Pro (office)  | 18.11.2024 - 24.11.2024 | Luca Greuter  |
+| 21-1   | 15x PCs                  | 18.11.2024 - 24.11.2024 | Luca Greuter  |
+| 21-2   | 4x Switch                | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-3   | 3x Access Point          | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-4   | 1x Router                | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-5   | 4x Smart Urinal          | 18.11.2024 - 01.12.2024 | Yassin Sobhy  |
+| 21-6   | 1x 50Meter LAN-Kabel     | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-7   | 2x 15Meter LAN-Kabel     | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-8   | 1x 20Meter LAN-Kabel     | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-9   | 18x 25Meter LAN-Kabel    | 25.11.2024 - 27.11.2024 | Laurin Lange  |
+| 21-10  | 4x 100Meter LED-Strips   | 02.12.2024 - 04.12.2024 | Yassin Sobhy  |
+| 21-11  | 3x MacBook Pro (office)  | 18.11.2024 - 24.11.2024 | Luca Greuter  |
 
 ## Kommunikationsplan für das Gaming-Café-Projekt
 
@@ -415,10 +575,10 @@ Der Projektauftrag ist ein Dokument, das die Grundlagen eines Projekts festlegt.
 
 | ID  | Testbereich         | Verantwortlich   | Startdatum     | Enddatum       |
 |-----|---------------------|------------------|----------------|----------------|
-| 1   | Netzwerk            | Laurin Lange     | 05.12.2024     | 06.12.2024     |
-| 2   | PCs                 | Luca Greuter     | 07.12.2024     | 08.12.2024     |
-| 3   | Räumlichkeiten      | Yassin Sobhy     | 10.12.2024     | 11.12.2024     |
-| 4   | Technischer Support | Samy Sobhy       | 12.12.2024     | 13.12.2024     |
+| 21-1   | Netzwerk            | Laurin Lange     | 05.12.2024     | 06.12.2024     |
+| 21-2   | PCs                 | Luca Greuter     | 07.12.2024     | 08.12.2024     |
+| 21-3   | Räumlichkeiten      | Yassin Sobhy     | 10.12.2024     | 11.12.2024     |
+| 21-4   | Technischer Support | Samy Sobhy       | 12.12.2024     | 13.12.2024     |
 
 ## Testberichte
 - **Dokumentation:** Ergebnisse der Tests werden täglich protokolliert.

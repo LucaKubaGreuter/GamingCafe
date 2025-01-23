@@ -127,7 +127,7 @@
         <mxCell id="WAEQg6gV_t4X5mUg_-IF-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="28" target="29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="28" value="21-6-2 Sicherheitsmaßnahmen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="28" value="21-6-2 Sicherheitsmassnahmen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="250" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="29" value="21-6-3 Wartung" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
