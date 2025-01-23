@@ -94,6 +94,13 @@
   - [5. Technischer Support](#5-technischer-support)
 - [Testzeitplan](#testzeitplan)
 - [Testberichte](#testberichte)
+- [Bewertung der Projektbereiche](#bewertung-der-projektbereiche)
+  - [Ziele und Erwartungen: **Schlecht**](#ziele-und-erwartungen-schlecht)
+  - [Zeitmanagement: **Gut**](#zeitmanagement-gut)
+  - [Kostenmanagement: **Gut**](#kostenmanagement-gut)
+  - [Qualitätsbewertung: **Gut**](#qualitätsbewertung-gut)
+  - [Risikobewertung: **Schlecht**](#risikobewertung-schlecht)
+  - [Teamleistung: **Schlecht**](#teamleistung-schlecht)
 
 ## Projektidee: Aufbau eines modernen Gaming-Cafés
 
@@ -584,3 +591,39 @@ Das kombinierte Modell aus Wasserfall und agilen Methoden bietet eine optimale M
 - **Dokumentation:** Ergebnisse der Tests werden täglich protokolliert.
 - **Abweichungen:** Alle Fehler oder Abweichungen werden analysiert und dokumentiert.
 - **Verantwortliche:** Der Projektleiter (Samy Sobhy) sammelt und überprüft die Berichte.
+
+---
+
+## Bewertung der Projektbereiche
+
+### Ziele und Erwartungen: **Schlecht**
+- **Problem:** Die Ziele wurden unklar definiert, was dazu führte, dass das Team unterschiedliche Erwartungen hatte.
+- **Ursache:** Fehlende Detailplanung in der Anforderungsanalyse.
+- **Lösung:** Zukünftig sollten die Ziele präziser formuliert und gemeinsam mit allen Teammitgliedern abgestimmt werden, um Missverständnisse zu vermeiden.
+
+### Zeitmanagement: **Gut**
+- **Erfolg:** Trotz enger Fristen wurde das Projekt termingerecht umgesetzt.
+- **Grund:** Ein klar definierter Zeitplan und regelmässige Status-Updates haben geholfen, den Fortschritt im Blick zu behalten.
+- **Empfehlung:** Dieses strukturierte Zeitmanagement sollte auch in zukünftigen Projekten beibehalten werden.
+
+### Kostenmanagement: **Gut**
+- **Erfolg:** Das Budget wurde eingehalten, und alle geplanten Ressourcen konnten beschafft werden.
+- **Grund:** Sorgfältige Planung und Verhandlung mit Lieferanten haben unerwartete Ausgaben minimiert.
+- **Empfehlung:** Das detaillierte Kostenmanagement und die frühzeitige Budgetfreigabe sollten als Best Practice etabliert werden.
+
+### Qualitätsbewertung: **Gut**
+- **Erfolg:** Die Qualität der Hardware, des Netzwerks und der Einrichtung entsprach den Erwartungen.
+- **Grund:** Die umfassende Testphase identifizierte Probleme frühzeitig und ermöglichte rechtzeitige Anpassungen.
+- **Empfehlung:** Die klare Definition von Qualitätsstandards und eine ausführliche Testphase sind essenziell für zukünftige Projekte.
+
+### Risikobewertung: **Schlecht**
+- **Problem:** Risiken wie fehlende Backup-Systeme und unvorhergesehene technische Probleme wurden nicht ausreichend berücksichtigt.
+- **Ursache:** Die Risikoplanung war nicht detailliert genug und liess potenzielle Szenarien ausser Acht.
+- **Lösung:** Ein umfassender Risikoanalyseprozess sollte eingeführt werden, um Schwachstellen frühzeitig zu identifizieren und Lösungen zu planen.
+
+### Teamleistung: **Schlecht**
+- **Problem:** Es gab Kommunikationsprobleme und Unklarheiten bei der Verteilung der Verantwortlichkeiten.
+- **Ursache:** Der Kommunikationsplan war nicht ausreichend detailliert, und regelmässige Meetings fehlten.
+- **Lösung:** Zukünftig sollte ein stärkerer Fokus auf Teambuilding, klare Aufgabenverteilung und regelmässige Feedbackrunden gelegt werden.
+
+---
